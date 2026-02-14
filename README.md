@@ -40,22 +40,27 @@ The app includes a Python backend that:
 
 **Tech Stack**
 **-Frontend (User Interface)**
+
 Framework: React 18 (TypeScript)
 
 Build Tool: Vite
+
 Styling: Tailwind CSS v4
 
 UI Components: * Radix UI (Primitives for accessible components like Dialogs, Tabs, and Accordions)
 
 Material UI (MUI) (For icons and layout elements)
 
-Framer Motion / Motion (For smooth animations and transitions)
 Lucide React (Icon library)
+
 Routing: React Router v7
+
 State Management: React Hooks (useState, useEffect)
 
 Desktop Framework
+
 Platform: Electron
+
 Installer/Bundler: Electron Builder
 
 Inter-Process Communication (IPC): Handled via preload.js to bridge the React UI and the system
@@ -64,12 +69,17 @@ Inter-Process Communication (IPC): Handled via preload.js to bridge the React UI
 Language: Python 3.8+
 
 Window Tracking: pygetwindow (Monitors active applications)
+
 Audio Engine: pygame (Plays focus and comfort audio)
+
 Data Storage: Local JSON storage (app-data.json)
+
 Integration: Real-time state synchronization using a file-based bridge (character_state.txt) #not complete
-Development Tools
+
+Development Tools 
 Language: TypeScript (for type safety across the UI)
-Package Manager: npm
+Package Manager: npm 
+
 Linting/Configuration: PostCSS, Vite Config, and TSConfig
 
 ## Installation
@@ -265,3 +275,4 @@ MIT
 - Motivational quotes curated for mental wellness
 
 - Built with Electron, Python, and love ❤️
+
