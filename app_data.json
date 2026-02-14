@@ -1,0 +1,22 @@
+{
+  "user": null,
+  "current_mode": "chill",
+  "tasks": [],
+  "notes": [],
+  "reminders": [],
+  "daily_goal": "",
+  "daily_goal_completed": false,
+  "sentiment_entries": [
+    {
+      "date": "2026-02-14T05:00:32.278646",
+      "mood": "neutral",
+      "color": null,
+      "answers": []
+    }
+  ],
+  "food_entries": [],
+  "focus_points": 0,
+  "focus_history": [],
+  "comfort_vault": [],
+  "character_state": "idle"
+}
