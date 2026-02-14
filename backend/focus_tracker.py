@@ -70,7 +70,7 @@ def track_focus():
                 print("⚠ Avoid distractions for 10 minutes!")
 
             # 6️⃣ Update character state for frontend animations
-            with open("character_state.txt", "w") as f:
+            with open("../character_state.txt", "w") as f:
                 f.write(character_state)
 
             # 7️⃣ Wait 5 seconds before next check

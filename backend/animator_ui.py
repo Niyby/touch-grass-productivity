@@ -43,7 +43,7 @@ class TouchgrassAnimator:
         self.root.mainloop()
 
     def update_jake_state(self):
-    state_file = "character_state.txt"
+    state_file = "../character_state.txt"
     if os.path.exists(state_file):
         with open(state_file, "r") as f:
             state = f.read().strip()
@@ -65,11 +65,11 @@ class TouchgrassAnimator:
     def load_and_scale_assets(self):
         """Loads PNGs and reduces size so the ENTIRE image fits"""
         asset_files = {
-            'chill': 'assets/shimeji_chill.png',
-            'work': 'assets/shimeji_work.png',
-            'disappointed': 'assets/shimeji_disappointed.png',
-            'excited': 'assets/shimeji_excited.png',
-            'happy': 'assets/shimeji_happy.png'
+            'chill': '../assets/shimeji_chill.png',
+            'work': '../assets/shimeji_work.png',
+            'disappointed': '../assets/shimeji_disappointed.png',
+            'excited': '../assets/shimeji_excited.png',
+            'happy': '../assets/shimeji_happy.png'
         }
         
         for key, path in asset_files.items():

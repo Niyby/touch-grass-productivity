@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router";
-import jakeImage from "figma:asset/491547837ff874f90ba7978aa486c44f7c0a8063.png";
 
+
+const jakeImage="/assets/jake.png";
 export default function ModeSelection() {
   const navigate = useNavigate();
 

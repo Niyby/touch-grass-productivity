@@ -7,15 +7,15 @@ pygame.mixer.init()
 
 # Play a random comfort audio
 def play_comfort_audio():
-    if not os.path.exists("audio_library/comfort.mp3"):
+    if not os.path.exists("../audio_library/comfort.mp3"):
         return
-    pygame.mixer.music.load("audio_library/comfort.mp3")
+    pygame.mixer.music.load("../audio_library/comfort.mp3")
     pygame.mixer.music.play()
     print("🎵 Playing comfort audio")
 
 # Play a random voice note
 def play_voice_note():
-    folder = "audio_library/voice_notes"
+    folder = "../audio_library/voice_notes"
     files = [f for f in os.listdir(folder) if f.endswith(".mp3")]
     if files:
         file = random.choice(files)
@@ -26,7 +26,7 @@ def play_voice_note():
 # Return today's folder path
 def get_daily_folder():
     today = datetime.now().strftime("%Y-%m-%d")
-    folder = os.path.join("daily_notes", today)
+    folder = os.path.join("../Daily_Notes", today)
     if not os.path.exists(folder):
         os.makedirs(folder)
     return folder
